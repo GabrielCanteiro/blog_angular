@@ -1,0 +1,28 @@
+.small_card_container {
+  display: flex;
+
+  border-bottom: 1px solid gray;
+  padding-bottom: .4rem;
+  margin-bottom: 2rem;
+}
+
+.small_card_image img{
+  width: 15vw;
+  height: 16vh;
+}
+
+.small_card_content{
+  margin-left: 1rem;
+}
+
+.small_card_content h1{
+  font-size: 1.2rem;
+
+}
+
+.small_card_content p{
+  font-size: .8rem;
+  color: gray;
+
+}
+

@@ -1,0 +1,20 @@
+.content{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.articles{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-be;
+}
+
+.articles__main{
+  width: 50vw;
+}
+
+.articles__others{
+  width: 50vw;
+  margin-left: 5%;
+}
+
