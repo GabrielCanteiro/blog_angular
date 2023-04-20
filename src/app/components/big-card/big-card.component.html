@@ -7,7 +7,7 @@
   </div>
     <p>{{PostData}}</p>
   <div class="big-card__title">
-    <h1>{{PostTitle}}</h1>
+    <a [routerLink]="['content', Id]"><h1>{{PostTitle}}</h1></a>
   </div>
   <div class="big-card_description">
     <p>{{PostContent}}</p>

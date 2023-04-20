@@ -13,6 +13,8 @@ export class SmallCardComponent implements OnInit {
   PostData:string = ""
   @Input()
   PostContent:string = ""
+  @Input()
+  Id:string = "0"
 
   constructor() { }
 

@@ -15,6 +15,8 @@ export class BigCardComponent implements OnInit {
   PostTitle:string = ""
   @Input()
   PostContent:string = ""
+  @Input()
+  Id:string = "0"
 
   constructor() { }
 
